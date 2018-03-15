@@ -23,3 +23,5 @@ APPROACH TO CALCULATE THE SGPA
     8)finally remove the file cs.
 NOTE: the tool bc is used to get the correct precission output (eg : bc -l <<<8.5 will return 8.5 itself)
 
+thank you
+
