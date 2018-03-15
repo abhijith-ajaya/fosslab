@@ -1,0 +1,4 @@
+Contains two scripts: sgpa.sh and cgpa.sh
+Call as
+./sgpa.sh result.pdf semester
+./cgpa.sh result_for_s1.pdf result_for_s2.pdf
