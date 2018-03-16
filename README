@@ -10,3 +10,16 @@ Call as
 ./cgpa.sh takes two command line argumets 
     1)the file name containing the result of the S1 result of MEC
     2) the file name containing the result of the S2 result of MEC.
+
+APPROACH TO CALCULATE THE SGPA
+
+    1) the first command line agrument is the filename of the result file.and the second command line agrument is the semister number.
+    2) the cs student list is searched out using grep and is inserted into a new file named cs.
+    3) the new file conatin the regNo and mark for 8 subjext in one line and the mark for the 9th subject in the next line.
+    4) create a array for the credit considering the second command line argument (ie. the semister number). and inputing the cs text to case.
+    5) read each line from cs text. for each word check if it is of form 'MDL16CS*' if yes , then register number =word. else get the grade using '(' and ')' as delimiters. (by using the cut tool). calculate the grade point using the case in. 
+    6) calculate the sgpa.
+    7) the lcount is used to consider both of the lines.(as the 9th subject's grade was in the next line ).
+    8)finally remove the file cs.
+NOTE: the tool bc is used to get the correct precission output (eg : bc -l <<<8.5 will return 8.5 itself)
+
