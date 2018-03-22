@@ -1,6 +1,6 @@
 
 pdftotext -layout $1 - | grep -A 1 MDL16CS | sed 's/--//;s/\o14//g' >cs
-sed '/^\s*$/d' cs >temp  # to remove the new line ...problem at page ending
+sed '/^\s*$/d' cs >temp  # to remove the space problem at page ending
 mv temp cs
 linecount=0
 case $2 in
