@@ -1,0 +1,17 @@
+git add filename # to add a file to the staging area 
+git commit -m "message" #to commit a change
+
+git config --global user.email "a.abhijith1adoor@gmail.com"
+git config --global user.name "slaybhi" # to configure the user with git
+
+
+git remote add origin https://www.github.com/slaybhi/fosslab.git # adding a remote named origin to the given directory 
+git rm filename #removing a file from the stagin area
+git branch print all the existing brancehs
+git branch branchname # create a new branch
+git checkout branch_name # switch to some other branch 
+git reset HEAD
+git log #print the log details
+git push remote-name branch #push to remote server
+git pull remote-name #pull from remote
+git status #check the status of the current git repository
