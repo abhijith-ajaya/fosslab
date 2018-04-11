@@ -1,0 +1,5 @@
+ apt install apache2 
+ apt install mysql-server
+ apt install php
+ sudo service apache2 start
+ sudo service mysql start
