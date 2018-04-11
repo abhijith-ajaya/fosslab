@@ -1,0 +1,9 @@
+ifconfig -a
+sudo ifconfig wlp3s0 192.168.1.154 netmask 255.255.252.0
+route add default gw 192.168.0.8
+nano /etc/resolve.conf 
+
+# add the line inside resolve.conf
+nameserver 8.8.8.8
+
+
