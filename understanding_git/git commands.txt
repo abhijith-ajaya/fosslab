@@ -15,3 +15,10 @@ git log #print the log details
 git push remote-name branch #push to remote server
 git pull remote-name #pull from remote
 git status #check the status of the current git repository
+
+
+// Git through proxy 
+git init
+git clone "whatever the repo link is"
+git config --global http.proxy http://user_name:password@proxy_ip:port
+git config --global --unset http.proxy
